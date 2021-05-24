@@ -4,5 +4,5 @@ const path =require('path')
 app.use(express.static(__dirname + "/dist/flowers"))
 app.listen(process.env.PORT || 3000)
 app.get ('/*',(req ,res)=>{
-res .sendFile(path.join(__dirname + 'dist/pet-shop/index.html'))
+res .sendFile(path.join(__dirname + 'dist/flowers/index.html'))
 })
