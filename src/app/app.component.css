@@ -34,3 +34,10 @@
   margin-left: 600px;
   font-size: smaller;
 }
+.padding {
+  padding: 20px;
+}
+.mat-card-image[_ngcontent-qai-c52] {
+  width: 300px;
+  height: 320px;
+}
