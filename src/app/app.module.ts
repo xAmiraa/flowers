@@ -10,10 +10,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  display: flex;
 }
 .links {
   margin-left: 30px;
@@ -28,7 +29,7 @@
   box-shadow: none;
 }
 .mat-toolbar.mat-primary {
-  background: #8a90ad;
+  background: #3d3d58;
 }
 .center {
   margin-left: 600px;
@@ -40,4 +41,222 @@
 .mat-card-image[_ngcontent-qai-c52] {
   width: 300px;
   height: 320px;
+}
+
+/* sart header */
+.header {
+  background: url("../assets/wp8921993.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 750px;
+  position: relative;
+}
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgb(130 123 117 / 77%);
+}
+
+.header .overlay h1 {
+  font-size: 60px;
+  margin-top: 400px;
+}
+/* footer */
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+/* media query */
+@media (max-width: 767px) {
+  .header .overlay .plan {
+    float: none;
+    margin: 30px auto 20px;
+    font-size: 26px;
+  }
+}
+.random {
+  background-color: rgba(218, 205, 191, 0.97);
+}
+/*  */
+.fa-cutlery {
+  color: #de4d42;
+  font-size: 4em;
+  margin: 1rem;
+}
+.fa-glass {
+  color: #00308f;
+  font-size: 4em;
+  margin: 1rem;
+}
+.fa-birthday-cake {
+  color: #3d0c02;
+  font-size: 4em;
+  margin: 1rem;
+}
+.btn-primary {
+  margin: 5px;
+}
+.card {
+  width: 95%;
+  margin: 2rem auto 2rem;
+  -webkit-box-shadow: rgba(218, 205, 191, 0.97);
+  -moz-box-shadow: rgba(218, 205, 191, 0.97);
+
+  box-shadow: 5px 5px 5px 5px rgba(103, 101, 107, 0.39);
+}
+.card-img-top {
+  height: 200px !important ;
+}
+.header .overlay h1 {
+  font-size: 60px;
+  margin-top: 423px;
+  color: #434834;
+}
+.header .overlay .plan {
+  border: 2px solid #fff;
+  font-size: 24px;
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-top: 50px;
 }
